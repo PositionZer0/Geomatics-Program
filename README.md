@@ -1,36 +1,15 @@
-<div align="center">
-    <a name="Top"></a>
- <h1>2024测绘程序设计比赛资料</h1>
-</div>
-<div align="center">
-    <a name="Top"></a>
-    <br/>
-    <details>
-        <summary><strong>2024赛前日程安排（点击展开）</strong></summary>
-  <p>
-            <img src="https://pic-bed-1316053657.cos.ap-nanjing.myqcloud.com/img/%E8%B5%9B%E5%89%8D%E6%97%A5%E7%A8%8B%E5%AE%89%E6%8E%92.png" alt="赛前日程安排" style="zoom:30%;" />
-        </p>
-    </details>
-    <details>
-        <summary><strong>2024年测绘程序设计比赛选题及说明（点击展开）</strong></summary>
-  <p>
-            <img src="https://pic-bed-1316053657.cos.ap-nanjing.myqcloud.com/img/2024%E5%B9%B4%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E6%AF%94%E8%B5%9B%E9%80%89%E9%A2%98%E5%8F%8A%E8%AF%B4%E6%98%8E.png" alt="2024年程序设计比赛选题及说明" style="zoom:30%;" />
-        </p>
-    </details>
-</div>
+# 2024年全国大学生测绘学科创新创业智能大赛测绘技能竞赛——测绘程序设计比赛
 
-## 相关资料
+## 赛前日程安排
 
-* [教育部高等学校测绘类专业教学指导委员会通知官网](https://smt.whu.edu.cn/sshd/dxscxcyznds.htm)：比赛通知、结果发布地址。
-* [智绘未来B站账号](https://space.bilibili.com/1965733536)：赛前培训直播和录播。
-* [测绘程序设计教材](https://pan.baidu.com/s/1zHryU_X0CNb2JY0wjCn9fA?pwd=aust)/[例程](https://github.com/ybli/bookcode)/[配套视频](https://www.bilibili.com/video/BV1Gh411e7ow)：测绘程序设计比赛的官方参考书、参考例程。
-* [测绘程序设计比赛讲解-回放](https://www.bilibili.com/video/BV18s4y1y71P)：2023年李英冰老师做的赛题讲解。
-* [luohongk 的仓库 CeHuiProgramDesign](https://github.com/luohongk/CeHuiProgramDesign)/[24赛题讲解视频](https://www.bilibili.com/video/BV1VM4m1R7xY)/[界面设计视频](https://www.bilibili.com/video/BV19x4y127MV)。
-* [LiZhengXiao99 的 2022 年省赛的界面设计视频](https://pan.baidu.com/s/1XN0B3IF7GJFRDMTwnh73ew?pwd=aust)：可以和罗哥的界面设计视频结合着看。
+- 7月3日 18:00-22:00 全国第一场模拟赛  
+  - 试题：激光点云数据的平面分割（2023年决赛试题）
+- 7月10日 18:00-22:00 全国第二场模拟赛  
+  - 试题：大地主题正算
+- 7月17日 18:00-22:00 全国第三场模拟赛
+- 7月29日 10:00-14:00 决赛
 
----
-
-## 国赛六个题
+## 试题
 
 1. [**空间数据探索性分析**](01-空间数据探索性分析)：计算标准误差椭圆、空间权重矩阵、常用空间自相关指数。
 
@@ -40,21 +19,26 @@
 2. [**遥感图像空间前方交会计算**](02-遥感图像空间前方交会计算)：计算立体像对的投影系数、像空间辅助坐标系坐标及地面摄影测量坐标系坐标。
 
     > **试题说明**：输入：点坐标；输出：计算投影系数、像空间辅助坐标系坐标、地面摄影测量坐标系坐标。  
-    > **参考例程**：书上的例程有错，可以参考 [luohongk 的 C# 程序](https://github.com/luohongk/CeHuiProgramDesign/tree/main/%E9%81%A5%E6%84%9F%E5%BD%B1%E5%83%8F%E7%9A%84%E7%A9%BA%E9%97%B4%E5%89%8D%E6%96%B9%E4%BA%A4%E4%BC%9A)。
+    > **参考例程**：书上的例程有错，可以参考 [luohongk 的 C# 程序](https://github.com/luohongk/CeHuiProgramDesign/tree/main/%E9%81%A5%E6%84%9F%E5%BD%B1%E5%83%8F%E7%9A%84%E7%A9%BA%E9%97%B4%E5%89%8D%E6%96%B9%E4%BA%A4%E4%BC%9A)、[CG050523 的程序](https://github.com/CG050523/Spatial-Foresight)。
 
 3. [**GNSS空间大气改正计算**](03-GNSS空间大气改正计算)：常用电离层改正模型、对流层改正模型计算。
 
     > **试题说明**：未说明使用何种改正模型。  
     > **参考例程**：书上给的例程。
+    
 4. [**纵横断面计算**](04-纵横断面计算)：道路纵断面、横断面的相关点位计算，以及断面面积计算。
 
     > **试题说明**：输入：道路关键点和散点数据；输出：道路纵断面、横断面相关点位计算，以及断面面积计算。  
-    > **参考例程**：2022 年国赛题，书上例程是 VB 的而且读文件的时候有 BUG（有个换行符写错了），可以参考 [luohongk 的 C# 程序](https://github.com/luohongk/CeHuiProgramDesign/tree/main/%E7%BA%B5%E6%A8%AA%E6%96%AD%E9%9D%A2%E8%AE%A1%E7%AE%97) 和 [LiZhengXiao99 的 2022 年国赛程序](2022国赛李贵程-李郑骁-纵横断面（国一）)。
+    > **参考例程**：2022 年国赛题，书上例程是 VB 的而且读文件的时候有 BUG（有个换行符写错了），可以参考 [luohongk 的 C# 程序](https://github.com/luohongk/CeHuiProgramDesign/tree/main/%E7%BA%B5%E6%A8%AA%E6%96%AD%E9%9D%A2%E8%AE%A1%E7%AE%97) 、 [LiZhengXiao99 的 2022 年国赛程序](2022国赛李贵程-李郑骁-纵横断面（国一）)、[CG050523 的程序](https://github.com/CG050523/Calculation-of-cross-section)
+    
 5. [**大地线长度计算**](05-大地线长度计算)：根据地球椭球参数和椭球面上的大地经纬度坐标，计算两点之间的大地线长度。
-
+   
+    **此题为 7月10日 全国第二场模拟赛 试题**
+   
     > **试题说明**：输入：地球椭球参数、大地经纬度两点坐标；输出：两点之间的大地线长度。  
     > **参考例程**：书上给的例程，也可以参考大地主题正反算例程，因为大地线长度计算是大地主题反算的一部分。
-6. [**曲线拟合**](06-曲线拟合)：利用五点光滑法进行曲线拟合。
+    
+7. [**曲线拟合**](06-曲线拟合)：利用五点光滑法进行曲线拟合。
 
     > **试题说明**：曲线坐标向内/外插值。使用五点光滑法，试题中会适当扩展。  
     > **参考例程**：书上给的例程。
@@ -105,3 +89,11 @@ $$S_i = \left(1 - \frac{T_i - T_1}{T_n - T_1} \times 0.4\right) \times S_0$$
 * 读/存文件：文本格式。
 
 * 用户界面：菜单、工具条、表格显示、文本显示等。
+
+## 相关资料
+
+* [教育部高等学校测绘类专业教学指导委员会通知官网](https://smt.whu.edu.cn/sshd/dxscxcyznds.htm)：比赛通知、结果发布地址。
+* [智绘未来B站账号](https://space.bilibili.com/1965733536)：赛前培训直播和录播。
+* [《测绘程序设计》教材](https://pan.baidu.com/s/1zHryU_X0CNb2JY0wjCn9fA?pwd=aust)/[例程](https://github.com/ybli/bookcode)/[配套视频](https://www.bilibili.com/video/BV1Gh411e7ow)：测绘程序设计比赛的官方参考书、参考例程。
+* [测绘程序设计比赛讲解-特邀专家李英冰](https://www.bilibili.com/video/BV1gr421c72b)：2024年的赛题讲解。
+
